@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    
+}
+
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(129, 96, 13, 0.7),rgba(224, 201, 151, 0.7)),url(images/headerImages.jpg);
+
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(112, 64, 199);
+}
+nav img{
+    width: 80px;
+
+}
+.navlinks{
+    flex: 1;
+    text-align: right;
+    
+}
+.navlinks ul li{
+    list-style: none;
+    display: inline-block;
+    
+    padding-left: 10px;
+    padding-right: 30px;
+    position: relative;
+    margin: 10px;
+}
+
+.navlinks ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+
+   
+
+}
+
+.navlinks ul li a:hover{
+    color: #d8291d;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    margin: -10px -10px;
+   
+}
+
+
+
+.text-box{
+    width: 80%;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 160px;
+}
+
+.btn{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #d8291d;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    
+}
+
+.btn:hover{
+    background-color: #af1e1e;
+    padding: 23px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 1.3rem;
+}
+
+.content{
+    width: 100%;
+    margin: auto;
+    padding: 5rem 2rem;
+    
+}
+
+.text-box h1{
+    font-size: 80px;
+    margin: 25px;
+    
+}
+
+.text-box p{
+    font-size: 25px;
+    margin: 15px;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 5px;
+    
+    background-color: rgb(255, 237, 215);
+
+
+}
+
+.containershort{
+    min-height: 60vh;
+    width: 100%;
+    padding-top: 50px;
+    
+    background-color: rgb(215, 231, 255);
+} 
+
+#BigThree{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 1000;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+
+
+}
+.card{
+    height: 500px;
+    width: 300px;
+    margin-right: 45px;
+    margin-left: 45px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+    
+    
+
+}
+
+#sando1{
+    background-image: url(images/chimacSando1.1.webp);
+    border: 2px solid rgb(255, 96, 96);
+    
+}
+#sando2{
+    background-image: url(images/chimacSando2.jpeg);
+    border: 2px solid rgb(255, 96, 96);
+}
+#sando3{
+    background-image: url(images/chimacSando3.jpeg);
+    border: 2px solid rgb(255, 96, 96);
+}
+
+
+
+.bigThree{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    padding: 40px;
+    border-radius: 30px;
+    padding-bottom: 50px;
+   
+    text-decoration: none;
+  
+
+}
+
+.bigThree .card{
+    padding: 50px 90px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.25s ease;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    transition: all 0.4s ease;
+    
+}
+
+.bigThree .card:hover{
+    background-color: #323232;
+    border: 1px solid red;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+
+#buttonPos{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    position: relative;
+
+}
+
+.learnMoreBTN{
+    padding:10px;
+     background-color: rgb(226, 69, 69);
+    text-align: center;
+    border: transparent;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+
+.learnMoreBTN:hover{
+    background-color: #af1e1e;
+    font-size: 21px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 12px;
+}
+
+.Box{
+
+    width:30cm;
+    height: 10cm;
+    margin-top: 0;
+    align-items: center;
+    
+    margin-bottom: 10px;
+    border: 1px solid rgb(4, 0, 255);
+    padding: 30px;
+    border-radius: 30px;
+    padding-bottom: 50px;
+    position: relative;
+    margin-left: 370px;
+    margin-top: 20px;
+    background-color: rgb(237, 244, 255);
+    
+  
+}
+
+
+.context{
+    position: absolute;
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+
+
+.titles{
+    margin-left: 8cm;
+    margin-bottom: 20px;
+    font-size: 45px;
+    
+   
+}
+
+
+#openDayContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.openDayBox {
+    display: flex;
+    width: 1200px;
+    height: 650px;
+    background-color:#f0f0f0;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid red;
+
+}
+
+.openDayImg {
+    flex: 1;
+    overflow: hidden;
+}
+
+.openDayImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.openDayTimes {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #000000;
+}
+#Open_title{
+    
+    font-size: 60px;
+    font-weight: 1000;
+    padding-left: 20cm;
+    padding-bottom: 1cm;
+
+}
+
+
+
+span#Monday{
+    margin-left: 300px;
+}
+
+span#Tuesday{
+    margin-left: 302px;
+}
+span#Wednesday{
+    margin-left: 278px;
+}
+
+span#Thursday{
+    margin-left: 295px;
+}
+span#Friday{
+    margin-left: 319px;
+}
+
+span#Saturday{
+    margin-left: 295px;
+}
+span#Sunday{
+    margin-left: 306px;
+}
+
+
+
+
+.openDayTimes ul li{
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.openDayTimes h1{
+    font-size: 40px;
+    font-weight: 1000;
+    
+}
+
+.openDayTimes p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.openDayTimes h2{
+    font-weight: 900;
+
+    margin-bottom: 20px;
+}
+
+.timetable ul li{
+    padding-left: 20px;
+    border-bottom: 1px solid rebeccapurple;
+    padding-bottom: 10px;
+}
+
+footer{
+    background-color: #4b278d;
+    height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_Box{
+    width:38cm;
+    height: 13cm;
+    margin-top: 0;
+    align-items: center;
+    
+    margin-bottom: 10px;
+    border: 1px solid rgb(241, 237, 255);
+    padding: 30px;
+    border-radius: 30px;
+    padding-bottom: 50px;
+    
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.footer_Content{
+    
+}
+
+.footer_Bottom{
+    padding: 20px;
+    text-align: center;
+}
+
+#container_menu{
+    min-height: 110vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_Box{
+    height: 40cm;
+    width: 30cm;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    border: 1px solid black;
+
+    margin-top: 4cm;
+    margin-bottom: 4cm;
+    display: flex;
+    justify-content: center;
+  align-items: flex-start;
+
+
+
+}
+
+#Menu_header{
+    font-size: 60px;
+    position: absolute;
+    margin: 10px;
+
+}
+
+#menu{
+    background-color: #fff;
+}
+
+.menu_titles{
+    padding:10px;
+    background-color: rgb(226, 69, 69);
+    text-align: center;
+    border: transparent;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    width: 150px;
+
+}
+
+
+
+#Burger1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#lateNightSpecal_title{
+    background-color: #785aaf;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    
+}
+
+.LateSandowSpecial{
+    background-color: #fff;
+    width: 20%;
+    display: inline-block;
+    height: 10cm;
+    position: relative;
+    border-radius: 30px;
+}
+
+.LateSandowSpecial ul li{
+    padding: 10px;
+}
+
+#AboutUs_title{
+    margin: 10px;
+    font-size: 50px;
+    padding-left: 40%;
+}
+
+
+
+
+
+
